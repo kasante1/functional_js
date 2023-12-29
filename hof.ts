@@ -70,6 +70,12 @@ const codingLeagueOfAmerica = [
 ]
 
 const findBestHero = 
-findOptimum2(compareHeroes);
+findOptimum2(compareHeroes)(codingLeagueOfAmerica);
 
-console.log(findBestHero(codingLeagueOfAmerica));
+console.log(findBestHero)
+
+
+// another method
+// const findBestHero = 
+// findOptimum2(compareHeroes);
+// console.log(findBestHero(codingLeagueOfAmerica));
